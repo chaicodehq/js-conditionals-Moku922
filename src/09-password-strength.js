@@ -53,10 +53,6 @@ export function checkPasswordStrength(password) {
   if (/[!@#$%^&*()_+\-=\[\]{}|;:,.<>?]/.test(password)) {
     criteriaMatched += 1;
   }
-  // if (/[!@#$%^&*()_+\-=\[\]{}|;:,.<>?]/.test(password)) {
-  //   criteriaMatched += 1;
-  // }
-  // console.log(criteria[criteriaMatched]);
 
   return criteria[criteriaMatched];
 }
